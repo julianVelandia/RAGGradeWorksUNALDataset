@@ -12,10 +12,6 @@ Diseñado para implementar sistemas de generación aumentada con recuperación d
    cd rag
    ```
 
-2. Instalar la librería:
-   ```bash
-   pip install .
-   ```
 
 ## Uso
 
