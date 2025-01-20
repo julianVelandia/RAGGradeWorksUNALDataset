@@ -1,7 +1,7 @@
 # RAG - Retrieval-Augmented Generation
 
 ## Descripción
-**RAG** es una librería diseñada para implementar sistemas de generación aumentada con recuperación de información. Utiliza datasets de Hugging Face, los vectoriza y permite consultas rápidas basadas en similitud de coseno.
+Diseñado para implementar sistemas de generación aumentada con recuperación de información. Utiliza datasets de Hugging Face, los vectoriza y permite consultas rápidas basadas en similitud de coseno.
 ![image](https://github.com/user-attachments/assets/ea271b48-376e-4496-a554-48ae915cecd4)
 
 ## Instalación
