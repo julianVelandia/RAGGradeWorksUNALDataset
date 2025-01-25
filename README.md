@@ -20,8 +20,10 @@ En la primera ejecución, se realiza la carga del dataset, su vectorización, y 
 ```python
 from rag import Rag
 
-# Configurar el sistema con un dataset de Hugging Face
-rag = Rag(hf_dataset="JulianVelandia/unal-repository-dataset")
+rag = Rag()
+query = "¿Cuál es el Diseño de iluminación, control y embellecimiento de la cancha del Estadio Alfonso López?"
+response = rag.retrieval_augmented_generation(query)
+print(response)
 ```
 
 Esto genera:
