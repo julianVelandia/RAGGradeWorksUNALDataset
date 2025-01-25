@@ -1,4 +1,4 @@
-# RAG - Retrieval-Augmented Generation
+# Simple RAG HuggingFace
 
 ## Descripción
 Diseñado para implementar sistemas de generación aumentada con recuperación de información. Utiliza datasets de Hugging Face, los vectoriza y permite consultas rápidas basadas en similitud de coseno.
