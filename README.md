@@ -6,11 +6,10 @@ Diseñado para implementar sistemas de generación aumentada con recuperación d
 
 ## Instalación
 
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/usuario/rag.git
-   cd rag
-   ```
+
+```bash
+pip install SimpleRAGHuggingFace
+```
 
 
 ## Uso
@@ -33,7 +32,7 @@ Esto genera:
 Una vez configurado, puedes realizar consultas:
 
 ```python
-query = "¿Qué es la energía renovable?"
+query = "¿Cuál es el Diseño de iluminación, control y embellecimiento de la cancha del Estadio Alfonso López?"
 response = rag.retrieval_augmented_generation(query)
 print(response)
 ```
@@ -41,11 +40,10 @@ print(response)
 El resultado será el `prompt` inicial combinado con las secciones más relevantes del contexto:
 
 ```
-¿Qué es la energía renovable?
+¿Cuál es el Diseño de iluminación, control y embellecimiento de la cancha del Estadio Alfonso López?
 
-Ten en cuenta este contexto:
-[Sección similar 1]
-[Sección similar 2]
+Keep in mind this context:
+Diseño de iluminación ... el Estadio Alfonso López, así como los resultados obtenidos, entendiendo que un equipo de futbol ...
 ...
 ```
 
